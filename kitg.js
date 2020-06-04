@@ -1499,13 +1499,15 @@ function LabelMsg(){
     }
 
 
-   let gmsgarr = []
-   for (let key of Object.keys(GlobalMsg)) {
-     if (GlobalMsg[key]) {
-        gmsgarr.push(GlobalMsg[key])
-     }
-   }
-   $("#PriorityLabel")[0].innerText =  gmsgarr.join(' / ')
+    let gmsgarr = []
+        for (let key of Object.keys(GlobalMsg)) {
+            if (GlobalMsg[key]) {
+            gmsgarr.push(GlobalMsg[key])
+        }
+    }
+    console.log(gmsgar.join(' / ')
+    $("#PriorityLabel")[0].innerText =  gmsgarr.join(' / ')
+	
 }
 
 function Chronosphere10SummPrices() {
