@@ -1503,9 +1503,9 @@ function LabelMsg(){
         for (let key of Object.keys(GlobalMsg)) {
             if (GlobalMsg[key]) {
                 gmsgarr.push(GlobalMsg[key])
-                console.log(GlobalMsg[key])
         }
     }
+	console.log(craftPriority)
     $("#PriorityLabel")[0].innerText =  gmsgarr.join(' / ')
 	
 }
