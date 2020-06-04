@@ -1505,7 +1505,7 @@ function LabelMsg(){
             gmsgarr.push(GlobalMsg[key])
         }
     }
-    console.log(gmsgar.join(' / '))
+    console.log(gmsgarr.join(' / '))
     $("#PriorityLabel")[0].innerText =  gmsgarr.join(' / ')
 	
 }
