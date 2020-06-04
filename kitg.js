@@ -1502,10 +1502,10 @@ function LabelMsg(){
     let gmsgarr = []
         for (let key of Object.keys(GlobalMsg)) {
             if (GlobalMsg[key]) {
-            gmsgarr.push(GlobalMsg[key])
+                gmsgarr.push(GlobalMsg[key])
+                console.log(GlobalMsg[key])
         }
     }
-    console.log(gmsgarr.join(' / '))
     $("#PriorityLabel")[0].innerText =  gmsgarr.join(' / ')
 	
 }
